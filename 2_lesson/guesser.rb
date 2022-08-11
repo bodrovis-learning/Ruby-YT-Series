@@ -14,3 +14,9 @@ elsif guess < random_number
 else
   puts "Нет, моё число меньше"
 end
+
+loop do
+  if age > 10
+    break
+  end
+end
