@@ -12,11 +12,10 @@ Gem::Specification.new do |spec|
   spec.platform              = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.7.0'
 
-  spec.files = Dir['README.md', 'LICENSE',
-                   'CHANGELOG.md', 'lib/**/*.rb',
-                   'fun_translations.gemspec', '.github/*.md',
-                   'Gemfile', 'Rakefile']
-  spec.extra_rdoc_files = ['README.md']
+  spec.files = Dir['lib/**/*.rb',
+                   'fun_translations.gemspec',
+                   'Gemfile']
+  #spec.extra_rdoc_files = ['README.md']
   spec.require_paths    = ['lib']
 
   spec.add_dependency 'faraday', '~> 2.6'
